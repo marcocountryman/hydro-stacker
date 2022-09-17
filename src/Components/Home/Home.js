@@ -6,6 +6,7 @@ function Home() {
     return (
         <div>
             HOME
+            {window.location.pathname}
         </div>
     )
 }

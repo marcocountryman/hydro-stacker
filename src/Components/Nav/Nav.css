@@ -1,0 +1,61 @@
+.nav-container {
+    position: relative;
+    /* white-space:nowrap; */
+    /* text-align: center; */
+}
+
+.nav-image {
+    max-width: 100%;
+}
+
+.nav-contents {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.nav-content-left {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.nav-content-left span {
+    font-size: 3vw;
+    font-weight: 800;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.nav-content-right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+.nav-content-right span {
+    height: 60%;
+}
+
+.nav-content-right span:hover {
+    border-bottom: 3px solid limegreen;
+    cursor: pointer;
+}
+
+.nav-motto {
+    position: absolute;
+    /* width: 100%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4.5vw;
+    font-style: italic;
+    font-weight: bold;
+    /* display: inline-block; */
+}

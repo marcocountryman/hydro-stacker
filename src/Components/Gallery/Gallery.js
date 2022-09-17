@@ -5,7 +5,7 @@ function Gallery() {
 
     return (
         <div>
-            Gallery
+            {window.location.pathname}
         </div>
     )
 }
