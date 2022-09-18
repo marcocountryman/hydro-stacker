@@ -1,7 +1,5 @@
 .nav-container {
     position: relative;
-    /* white-space:nowrap; */
-    /* text-align: center; */
 }
 
 .nav-image {
@@ -39,7 +37,7 @@
 }
 
 .nav-content-right span {
-    height: 60%;
+    height: 50%;
 }
 
 .nav-content-right span:hover {
@@ -49,13 +47,11 @@
 
 .nav-motto {
     position: absolute;
-    /* width: 100%; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #fee440;
     font-size: 4.5vw;
     font-style: italic;
     font-weight: bold;
-    /* display: inline-block; */
 }
