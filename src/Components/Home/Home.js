@@ -6,12 +6,12 @@ function Home() {
     return (
         <div className = "home-container">
             
-            <h1 className = "hydro-stacker-header-1">HydroStacker Systems</h1>
+            <h1 className = "hydro-stacker-header">HydroStacker Systems</h1>
 
-            <div className = "section-1">
+            <div className = "section-content">
                 
                 <div className = "section-1-content">
-                    <p>Hydro-Stacker Systems™ is a hydroponic vertical gardening system. 
+                    <p className = "section-paragraph" id = "section-para">Hydro-Stacker Systems™ is a hydroponic vertical gardening system. 
                         Using Hydro-Stackers Systems can increase your fruit and vegetable 
                         yield while decreasing the garden space needed. Grow just about any 
                         plant from your garden using just a few square feet. Our automated 
@@ -24,18 +24,18 @@ function Home() {
                           our Hydro-Stacker systems!</p>
                 </div>
                 
-                <img className = "section-1-image"src="https://hydro-stacker-systems-images.s3.amazonaws.com/sample-system.jpg" alt = "sample-system"></img>
+                <img id = "section-image" src = "https://hydro-stacker-systems-images.s3.amazonaws.com/sample-system.jpg" alt = "sample-system"></img>
             
             </div>
 
-            <h1 className = "hydro-stacker-header-2">Home Gardens</h1>
+            <h1 className = "hydro-stacker-header">Home Gardens</h1>
 
-            <div className = "section-2">
+            <div className = "section-content">
 
-                <img className = "section-2-image" src = "https://hydro-stacker-systems-images.s3.amazonaws.com/home-system.jpg" alt = "section-2"></img>
+                <img id = "section-image" src = "https://hydro-stacker-systems-images.s3.amazonaws.com/home-system.jpg" alt = "section-2"></img>
 
                 <div className = "section-2-content">
-                    <p>Our growing systems keep you involved in the plant life cycle by you 
+                    <p className = "section-paragraph" id = "section-para">Our growing systems keep you involved in the plant life cycle by you 
                         determining the watering schedule. Our system includes an electric
                          pump and timer (you will need to get your own reservoir, 
                          a 55-gallon drum works great) for worry-free growing. 
@@ -50,11 +50,11 @@ function Home() {
 
             </div>
 
-            <h1 className = "hydro-stacker-header-1">Commercial Growing</h1>
+            <h1 className = "hydro-stacker-header">Commercial Growing</h1>
 
-            <div className = "section-3">
+            <div className = "section-content">
                 <div className = "section-3-content">
-                    <p>Are you looking to increase your yields without
+                    <p className = "section-paragraph" id = "section-para">Are you looking to increase your yields without
                          changing the size of your farm? Do you want to 
                          start a U-Pick garden, letting your customers 
                          harvest their own fruits and vegetables? Are you 
@@ -71,12 +71,12 @@ function Home() {
                             Hydro-Stacker Systems today</p>
                 </div>
 
-                <img className = "section-3-image" src = "https://hydro-stacker-systems-images.s3.amazonaws.com/commercial.jpg" alt = "commercial"></img>
+                <img id = "section-image" src = "https://hydro-stacker-systems-images.s3.amazonaws.com/commercial.jpg" alt = "commercial"></img>
             </div>
 
             <div className = "section-education">
                 <h1>Education</h1>
-                <p>Would you like to teach your students about the growing 
+                <p id = "section-education-para">Would you like to teach your students about the growing 
                     cycle of plants? Is your lab space limited? The Hydro-Stacker 
                     vertical hydroponic growing unit is the perfect answer. 
                     Hydro-Stacker will design your system and help you and your
