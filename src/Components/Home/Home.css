@@ -1,86 +1,119 @@
 .home-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 100%;
+    padding-top: 1%;
+    margin: auto 0;
+}
+
+.home-section-1 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.home-section-1-left {
+    position: relative;
     text-align: center;
-}
-
-.hydro-stacker-header {
-    font-size: 5vw;
+    width: 60%;
     height: 100%;
-    color: #218380;
 }
 
-.home-container div {
+.home-section-1-left span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.home-section-1-left img {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.home-section-1-right {
     display: flex;
     justify-content: space-between;
+    width: 40%;
 }
 
-@media screen and (max-width: 500px) {
-    .section-content {
-       display: flex;
-       flex-direction: column;
-    }
-
-    #section-education-para {
-        font-size: 3vw;
-    }
-
-    #section-image {
-        width: 100%;
-        height: 50vh;
-    }
-
-    #section-para {
-        height: 30vh;
-        font-size: 3vw;
-    }
+.home-section-1-right img {
+    width: 48%;
+    height: 100%;
 }
 
-.section-paragraph {
-    font-size: 2vw;
-    text-align: left;
+.header {
     color: #218380;
-    margin: 0;
-    padding: 15px;
+    font-size: 3vw;
+    font-family: 'Dosis', sans-serif;
 }
 
-.section-1-content {
-    display: flex;
-    background-color: white;
-    width: 100%;
-}
-
-.section-content img {
-    width: 50%;
-    height: 75vh;
-}
-
-.section-2-content {
-    display: flex;
-    background-color: white;
-    width: 100%;
-}
-
-.section-3-content {
-    display: flex;
-    background-color: white;
-    width: 100%;
-}
-
-.section-education {
+.home-section-2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 90%;
 }
 
-.section-education h1 {
-    font-size: 5vw;
-    color: #218380;
+.home-system-image{
+    width: 100%;
 }
 
-.section-education p {
-    font-size: 2.5vw;
-    color: #218380;
-    text-align: left;
+.home-section-2 p {
+    font-family: 'Dosis',sans-serif;
+    font-size: 2vw;
+    /* background-color: #fffd5d; */
+}
+
+.home-section-3 {
+    display: flex;
+    width: 90%;
+    background-color: #60d394;
+    color: white;
+}
+
+.home-section-3 img {
+    width: 50%;
+    height: 100%;
+    padding-right: 1%;
+}
+
+.home-section-3 p {
     margin: 0;
+    height: 100%;
+    font-size: 2vw;
+    font-family: 'Dosis',sans-serif;
+}
+
+.home-section-4 {
+    display: flex;
+    width: 90%;
+    background-color: #ffc971;
+}
+
+.home-section-4 img {
+    width: 50%;
+    padding-left: 1%;
+}
+
+.home-section-4 p {
+    margin: 0;
+    height: 100%;
+    font-size: 2vw;
+    font-family: 'Dosis',sans-serif;
+}
+
+.education-section {
+    margin: 0;
+    height: 100%;
+    font-size: 2vw;
+    font-family: 'Dosis',sans-serif;
+    width: 90%;
 }

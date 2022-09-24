@@ -1,9 +1,9 @@
-// import logo from './logo.svg';
 import './App.css';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
+import { Switch, Route, BrowserRouter as Router, withRouter } from 'react-router-dom'
 import Home from './Home/Home';
 import Gallery from './Gallery/Gallery';
-import Nav from './Nav/Nav';
+import Navbar from './Nav/Navbar';
+import Shop from './Shop/Shop';
 
 function App() {
 
@@ -12,12 +12,26 @@ function App() {
 
       <div className="App">
 
-        <Nav/>
-        <Route exact path = "/" component = {Home}/>
-        <Route path = "/gallery" component = {Gallery}/>
-  
+        <Navbar/>
+ 
+        <Switch>
+          
+          <Route path = "/shop">
+            <Shop/>
+          </Route>
+          
+          <Route path = "/gallery">
+            <Gallery/>
+          </Route>
+          
+          <Route path = "/">
+            <Home/>
+          </Route>
+        
+        </Switch>
+
       </div>
-    </Router>
+     </Router>
   );
 }
 

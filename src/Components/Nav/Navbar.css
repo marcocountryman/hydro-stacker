@@ -1,0 +1,56 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.nav-right {
+    width: 15%;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-right button {
+    background-color: #60d394;
+    color: white;
+    border: none;
+    width: 90%;
+    height: 80%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+.nav-right button {
+    cursor: pointer;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.nav-logo {
+    width: 15%;
+}
+
+.nav-left a {
+    font-size: 1.5vw;
+    padding-top: 1%;
+    height: 50%;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left a:hover {
+    border-bottom: 2px solid #60d394;
+    cursor: pointer;
+}
