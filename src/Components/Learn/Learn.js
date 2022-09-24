@@ -7,7 +7,7 @@ function Learn() {
         <div className = "learn-container">
 
             <div className = "learn-banner">
-                <span>Learn with us and grow 🧑‍🎓</span>
+                <span>Yearn to learn 🧑‍🎓</span>
             </div>
 
             <div className = "learn-section">

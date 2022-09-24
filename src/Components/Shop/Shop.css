@@ -1,0 +1,46 @@
+.shop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 1%;
+}
+
+.shop-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #60d394;
+    height: 10vh;
+}
+
+.shop-banner span {
+    width: 90%;
+    font-family: 'Dosis',sans-serif;
+    font-size: 5vh;
+}
+
+.shop-section {
+    width: 90%;
+}
+
+.shop-section h1 {
+    color: #218380;
+    font-size: 3vw;
+}
+
+.shop-section h2 {
+    color: #218380;
+    font-size: 2.5vw;
+}
+
+.shop-section p {
+    font-size: 2vw;
+}
+
+.shop-section li {
+    font-size: 2vw;
+    padding-bottom: 1%;
+}
