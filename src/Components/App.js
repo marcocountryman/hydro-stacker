@@ -4,16 +4,15 @@ import Home from './Home/Home';
 import Gallery from './Gallery/Gallery';
 import Navbar from './Nav/Navbar';
 import Shop from './Shop/Shop';
+import Learn from './Learn/Learn';
 
 function App() {
 
   return (
     <Router>
-
       <div className="App">
 
         <Navbar/>
- 
         <Switch>
           
           <Route path = "/shop">
@@ -22,6 +21,10 @@ function App() {
           
           <Route path = "/gallery">
             <Gallery/>
+          </Route>
+
+          <Route path = "/learn">
+            <Learn/>
           </Route>
           
           <Route path = "/">

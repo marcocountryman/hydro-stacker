@@ -20,7 +20,7 @@
 .gallery-banner span {
     width: 90%;
     font-family: 'Dosis',sans-serif;
-    font-size: 6vh;
+    font-size: 5vh;
 }
 
 .gallery-photos {
@@ -34,6 +34,6 @@
 .gallery-photos img {
     width: 30%;
     padding-bottom: 3%;
-    height: 65vh;
+    height: 100%;
+    
 }
-

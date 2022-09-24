@@ -1,0 +1,43 @@
+.learn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 1%;
+}
+
+.learn-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #ffc971;
+    height: 10vh;
+}
+
+.learn-banner span {
+    width: 90%;
+    font-family: 'Dosis',
+    sans-serif;
+    font-size: 5vh;
+}
+
+.learn-section {
+    width: 90%;
+}
+
+.learn-section h1{
+    color: #218380;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.learn-section p{
+    font-size: 2vw;
+}
+
+.learn-section li {
+    font-size: 2vw;
+    padding-bottom: 1%;
+}

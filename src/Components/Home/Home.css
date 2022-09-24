@@ -29,6 +29,7 @@
     color: white;
     font-size: 2.5vw;
     font-weight: bold;
+    font-style: italic;
 }
 
 .home-section-1-left img {
@@ -69,7 +70,6 @@
 .home-section-2 p {
     font-family: 'Dosis',sans-serif;
     font-size: 2vw;
-    /* background-color: #fffd5d; */
 }
 
 .home-section-3 {

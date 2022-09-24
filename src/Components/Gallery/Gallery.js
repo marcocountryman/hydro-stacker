@@ -15,13 +15,13 @@ function Gallery() {
                 <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-2.jpg" alt = "gallery photo"></img>
                 <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-3.jpg" alt = "gallery photo"></img>
                 <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-4.jpg" alt = "gallery photo"></img>
-                <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-5.jpg" alt = "gallery photo"></img>
                 <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-6.jpg" alt = "gallery photo"></img>
                 <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-7.jpg" alt = "gallery photo"></img>
                 <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-8.jpg" alt = "gallery photo"></img>
                 <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-9.jpg" alt = "gallery photo"></img>
+                <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/gallery-5.jpg" alt = "gallery photo"></img>
             </div>
-            
+
         </div>
     )
 }
