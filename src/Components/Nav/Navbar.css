@@ -28,6 +28,11 @@
     padding-top: 1%;
 }
 
+button a {
+    color: white;
+    text-decoration: none;
+}
+
 .nav-right button {
     cursor: pointer;
 }

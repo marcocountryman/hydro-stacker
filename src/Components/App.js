@@ -5,6 +5,8 @@ import Gallery from './Gallery/Gallery';
 import Navbar from './Nav/Navbar';
 import Shop from './Shop/Shop';
 import Learn from './Learn/Learn';
+import Footer from './Footer/Footer';
+import ContactForm  from './Contact/ContactForm';
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
       <div className="App">
 
         <Navbar/>
+
         <Switch>
           
           <Route path = "/shop">
@@ -26,12 +29,18 @@ function App() {
           <Route path = "/learn">
             <Learn/>
           </Route>
+
+          <Route path = "/contact">
+            <ContactForm/>
+          </Route>
           
           <Route path = "/">
             <Home/>
           </Route>
         
         </Switch>
+
+        <Footer/>
 
       </div>
      </Router>

@@ -22,7 +22,7 @@ function Navbar() {
                 </div>
 
                 <div className = "nav-right">
-                    <button>CONTACT 📱</button>
+                    <button><Link to = "/contact">CONTACT</Link></button>
                 </div>
                
             </div>

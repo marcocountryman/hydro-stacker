@@ -1,0 +1,28 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid black;
+    background-color: #E7E9EB;
+    padding-bottom: 5%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.footer-container p {
+    font-size: 1.5vw;
+}
+
+.footer-right button {
+    background-color: #60d394;
+    color: white;
+    border: none;
+    width: 80%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-top: 1%;
+}
