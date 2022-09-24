@@ -13,7 +13,6 @@ function Home() {
                     <span>Harvest your potential</span>
                 </div>
 
-
                 <div  className = "home-section-1-right">
                     <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/vertical-system-1.jpg" alt = "sample-sytems"></img>
                     <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/vertical-system-2.jpg" alt = "sample-system"></img>
@@ -81,21 +80,12 @@ function Home() {
             </div>
 
             <h1 className = "header">Education</h1>
-            <p className = "education-section">Are you looking to increase your yields without
-                changing the size of your farm? Do you want to 
-                start a U-Pick garden, letting your customers 
-                harvest their own fruits and vegetables? Are you 
-                tired of dealing with all that dirt and chemical 
-                fertilizer? Hydro-Stacker can custom design and
-                build a system for you utilizing your existing
-                farm space for maximum potential yield. Installing
-                the Hydro-Stacker system is a fast and easy way 
-                to see your crop yield and potentially your 
-                financial return increase dramatically. Hydro-Stacker 
-                has successfully been installed in hundreds of 
-                commercial farms, ranging in size from 15,000 
-                plants to over 1 MILLION plants! Contact 
-                Hydro-Stacker Systems today
+            <p className = "education-section">Would you like to teach your students 
+                about the growing cycle of plants? Is your lab space limited? The Hydro-Stacker
+                vertical hydroponic growing unit is the perfect answer. Hydro-Stacker will 
+                design your system and help you and your class install it. We already teach 
+                hydroponic methods at several schools and have gotten positive feedback from 
+                everyone involved.
             </p>
         </div>
     )

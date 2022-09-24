@@ -1,0 +1,39 @@
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 1%;
+}
+
+.gallery-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #fcf45d;
+    height: 10vh;
+}
+
+.gallery-banner span {
+    width: 90%;
+    font-family: 'Dosis',sans-serif;
+    font-size: 6vh;
+}
+
+.gallery-photos {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+.gallery-photos img {
+    width: 30%;
+    padding-bottom: 3%;
+    height: 65vh;
+}
+
