@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
 
+ 
+
     return (
         <div className = "footer-container">
 
@@ -12,7 +14,7 @@ function Footer() {
 
                 <div className = "footer-right">
                     <p>We'd love to hear from you</p>
-                    <button><Link to = "/contact">CONTACT</Link></button>
+                    <button className = "contact-button"><Link to = "/contact">CONTACT</Link></button>
                 </div>
             </div>
 
