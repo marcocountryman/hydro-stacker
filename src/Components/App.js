@@ -15,13 +15,12 @@ function App() {
       <div className="App">
 
         <Navbar/>
-
         <Switch>
           
           <Route path = "/shop">
             <Shop/>
           </Route>
-          
+
           <Route path = "/gallery">
             <Gallery/>
           </Route>
@@ -33,13 +32,12 @@ function App() {
           <Route path = "/contact">
             <ContactForm/>
           </Route>
-          
+    
           <Route path = "/">
             <Home/>
           </Route>
         
         </Switch>
-
         <Footer/>
 
       </div>
