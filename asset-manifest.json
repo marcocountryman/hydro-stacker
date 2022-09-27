@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/hydro-stacker/static/css/main.c4fc8d4b.css",
-    "main.js": "/hydro-stacker/static/js/main.a405c001.js",
-    "index.html": "/hydro-stacker/index.html",
-    "main.c4fc8d4b.css.map": "/hydro-stacker/static/css/main.c4fc8d4b.css.map",
-    "main.a405c001.js.map": "/hydro-stacker/static/js/main.a405c001.js.map"
+    "main.css": "/static/css/main.c4fc8d4b.css",
+    "main.js": "/static/js/main.a405c001.js",
+    "index.html": "/index.html",
+    "main.c4fc8d4b.css.map": "/static/css/main.c4fc8d4b.css.map",
+    "main.a405c001.js.map": "/static/js/main.a405c001.js.map"
   },
   "entrypoints": [
     "static/css/main.c4fc8d4b.css",
