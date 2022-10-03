@@ -1,4 +1,4 @@
-.footer-container {
+#footer-container {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -13,16 +13,22 @@
     width: 90%;
 }
 
-.footer-container p {
+#footer-container p {
     font-size: 1.5vw;
 }
 
 .footer-right button {
     background-color: #60d394;
-    color: white;
+    /* text-decoration: none; */
+    /* color: white; */
     border: none;
     width: 80%;
     font-size: 1.5vw;
     font-weight: bold;
     padding-top: 1%;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: white;
 }

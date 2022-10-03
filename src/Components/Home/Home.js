@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom';
 function Home() {
 
     return (
-        <div className = "home-container">
+        <div id = "home-container">
 
             <div className = "home-section-1">
                 <div className = "home-section-1-left">
@@ -42,7 +42,7 @@ function Home() {
             <h1 className = "header">Home Gardens</h1>
 
             <div className = "home-section-3">
-                <img  src = "https://hydro-stacker-systems-images.s3.amazonaws.com/sample-system.jpg" alt = "home-garden"></img>
+                <img  src = "https://hydro-stacker-systems-images.s3.amazonaws.com/hydro-banner-home-1.jpg" alt = "home-garden"></img>
                 <p>Our growing systems keep you involved in the plant life cycle by you 
                     determining the watering schedule. Our system includes an electric
                     pump and timer (you will need to get your own reservoir, 
@@ -76,7 +76,7 @@ function Home() {
                     plants to over 1 MILLION plants! Contact 
                     Hydro-Stacker Systems today
                 </p>
-                <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/commercial.jpg" alt = "commercial"></img>
+                <img src = "https://hydro-stacker-systems-images.s3.amazonaws.com/hydro-home-2.jpg" alt = "commercial"></img>
             </div>
 
             <h1 className = "header">Education</h1>

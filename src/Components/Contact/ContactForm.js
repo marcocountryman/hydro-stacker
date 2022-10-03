@@ -48,22 +48,4 @@ function ContactForm() {
     )
 }
 
-// function hideContactButton() {
-//         // const contactButtons = document.getElementsByClassName("contact-button");
-
-//         // for (let i = 0; i < contactButtons.length; i++) {
-//         //     contactButtons[i].style.visibility = 'hidden';
-//         // }
-//         console.log('mounted');
-//     }
-    
-// function showContactButton() {
-//         // const contactButtons = document.getElementsByClassName("contact-button");
-
-//         // for (let i = 0; i < contactButtons.length; i++) {
-//         //     contactButtons[i].style.visibility = 'visible';
-//         // }
-//         console.log('unmounted')   
-//     }
-
 export default ContactForm;

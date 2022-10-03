@@ -14,14 +14,14 @@
     text-align: center;
     width: 100%;
     background-color: #ffc971;
-    height: 10vh;
+    height: 8vh;
 }
 
 .learn-banner span {
     width: 90%;
     font-family: 'Dosis',
     sans-serif;
-    font-size: 5vh;
+    font-size: 3.5vh;
 }
 
 .learn-section {

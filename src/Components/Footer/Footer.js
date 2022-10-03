@@ -7,7 +7,7 @@ function Footer() {
  
 
     return (
-        <div className = "footer-container">
+        <div id = "footer-container">
 
             <div className = "footer-content">
                 <p>Hydro-Stacker Systems™ is a proud, Veteran Owned Business.</p>
